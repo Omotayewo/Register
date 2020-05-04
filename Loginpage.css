@@ -1,0 +1,208 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+}
+body{
+	background: linear-gradient(-45deg, purple, indigo);
+}
+p b{
+	font-size: 25px;
+	color: white;
+	animation: anime 0.2s ease;
+}
+@keyframes anime{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+#fname{
+	animation: fname 0.5s ease 0.1s;
+}
+@keyframes fname{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+#lname{
+	animation: lname 0.5s ease 0.2s;
+}
+@keyframes lname{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+#mail{
+	animation: mail 0.5s ease 0.3s;
+}
+@keyframes mail{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+#pnumber{
+	animation: pnumber 0.5s ease 0.4s;
+}
+@keyframes pnumber{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+#pword{
+	animation: pword 0.5s ease 0.5s;
+}
+@keyframes pword{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+.sign{
+	animation: sign 0.5s ease 0.6s;
+}
+@keyframes sign{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+.line{	
+	animation: line 0.5s ease 0.7s;
+}
+@keyframes line{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+.log{
+	animation: log 0.5s ease 0.8s;
+}
+@keyframes log{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+input[type=text], input[type=number] {
+	padding: 10px 20px;
+	margin: 20px;
+	background: none;
+	color: white;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+}
+::placeholder{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+	opacity: 0.5;
+}
+.middle{
+	border: 3px solid white;
+	width: 90%;
+	border-radius: 5%;
+	box-shadow: 2px 2px 5px white;
+	text-align: center;
+	margin: 20px 0px 50px 10px;
+}
+#pword{
+	margin-top: -80px;
+}
+label[for=list] {
+	color: white;
+	opacity: 0.5;
+}
+p span {
+	margin-top: 50px;
+	display:flex;
+	color: white;
+	margin-left: 40px;
+}
+p span:before, p span:after {
+	color:white;
+	content:'';
+	flex: 0.4;
+	border-bottom:solid 2px;
+	margin: 10px 1px;
+}
+button{
+	padding: 10px 20px;
+	background: none;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5%;
+}
+button:hover{
+	background: white;
+	color: purple;
+}
+button a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 40px;
+}
+button a:hover{
+	color: purple;
+	background: white;
+}
+@media screen and (min-width: 480px) {
+	html{
+		margin: 0px;
+		padding: 0px;
+		min-height: 100%;
+	}
+	p b{
+		font-size: 50px;
+		color: white;
+	}
+	input[type=text], input[type=number] {
+		padding: 30px 40px;
+		margin: 20px;
+		background: none;
+		color: white;
+		border: none;
+		border-bottom: 1px solid white;
+	}
+	::placeholder{
+		color: white;
+		font-size: 15px;
+		letter-spacing: 2px;
+		opacity: 0.5;
+	}
+	.middle{
+		border: 3px solid white;
+		width: 60%;
+		border-radius: 5%;
+		box-shadow: 2px 2px 5px white;
+		text-align: center;
+		margin: 200px 0px 0px 200px;
+	}
+	label[for=list] {
+		color: white;
+		opacity: 0.5;
+	}
+	p span {
+		margin-top:50px;
+		display:flex;
+		color: white;
+		margin-left: 80px;
+	}
+	p span:before, p span:after {
+		color:white;
+		content:'';
+		flex: 0.4;
+		border-bottom:groove 2px;
+		width: 40%;
+		margin:auto 0.25em;
+		box-shadow: 0 -1px;
+	}
+	button{
+		padding: 30px 40px;
+		background: none;
+		color: white;
+		border: 1px solid white;
+		border-radius: 5%;
+	}
+	button:hover{
+		background: white;
+		color: purple;
+	}
+	button a{
+		text-decoration: none;
+		color: white;
+		padding: 30px 40px;
+	}
+	button a:hover{
+		color: purple;
+		background: white;
+	}
+}

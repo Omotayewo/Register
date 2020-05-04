@@ -1,0 +1,152 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+}
+body{
+	background: linear-gradient(-45deg, purple, indigo);
+}
+b{
+	font-size: 25px;
+	color: white;
+}
+p b{
+	animation: anime 0.2s ease;
+}
+@keyframes anime{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+input[type=text]{
+	padding: 10px 20px;
+	margin: 20px;
+	background: none;
+	color: white;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+}
+::placeholder{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+	opacity: 0.5;
+}
+#mail{
+	animation: mail 0.5s ease 0.1s;
+}
+@keyframes mail{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+#pword{
+	animation: pword 0.5s ease 0.2s;
+}
+@keyframes pword{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+.log{
+	animation: log 0.5s ease 0.4s;
+}
+@keyframes log{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+.line{	
+	animation: line 0.5s ease 0.5s;
+}
+@keyframes line{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+.sign{
+	animation: log 0.5s ease 0.6s;
+}
+@keyframes log{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+.middle{
+	border: 3px solid white;
+	width: 90%;
+	border-radius: 5%;
+	box-shadow: 2px 2px 5px white;
+	text-align: center;
+	margin: 50px 0px 50px 10px;
+}
+span {
+	margin-top:30px;
+	display:flex;
+	color: white;
+	margin-left: 50px;
+}
+p span:before, p span:after {
+	color:white;
+	content:'';
+	flex: 0.4;
+	border-bottom:solid 2px;
+	margin: 10px 1px;
+}
+button{
+	padding: 10px 20px;
+	background: none;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5%;
+}
+button:hover{
+	background: white;
+	color: purple;
+}
+button a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 40px;
+}
+button a:hover{
+	color: purple;
+	background: white;
+}
+@media screen and (min-width: 480px) {
+	html{
+		margin: 0px;
+		padding: 0px;
+		min-height: 100%;
+	}
+	body{
+		background: linear-gradient(-45deg, purple, indigo);
+	}
+	b{
+		font-size: 50px;
+		color: white;
+	}
+
+	input[type=text]{
+		padding: 30px 40px;
+		margin: 20px;
+		background: none;
+		color: white;
+		border: none;
+		border-bottom: 1px solid white;
+	}
+	button{
+		padding: 30px 40px;
+		background: none;
+		color: white;
+		border: 1px solid white;
+		border-radius: 5%;
+	}
+	button:hover{
+		background: white;
+		color: purple;
+	}
+	.middle{
+		text-align: center;
+		border: 1px solid white;
+		width: 40%;
+		border-radius: 5%;
+		box-shadow: 2px 2px 5px white;
+		margin: 300px 0px 0px 300px;
+	}
+}
